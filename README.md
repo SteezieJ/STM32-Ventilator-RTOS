@@ -9,6 +9,7 @@ The second button is used to connect/disconnect the 'patient' and only enables i
 ## Simulation
 This image shows the FSM modelled version that steps through each setting. The patient has to be disconnected to start the settings mode and all settings must be set and the mode exited to connect the patient and start pumping air. The airflow is indicated with a flashing LED.
 
+
 ![model](images/fsm.gif)
 
 ## Implementation
