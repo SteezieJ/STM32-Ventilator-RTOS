@@ -6,6 +6,7 @@ The user enters the settings mode with a long press to enter the ventilator sett
 The second button is used to connect/disconnect the 'patient' and only enables if settings have been entered.
 
 This image shows the FSM modelled version that steps through each setting.
+![pinout picture](images/fsm.png)
 
 
 Assumptions
