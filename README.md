@@ -15,8 +15,9 @@ The STM32 is connected with the following pinout:
 
 ![pinout](images/pinout.png)
 
+
 The device is connected with the serial debugger to enter the settings mode and toggles the settings with an on screen menu and help functions to request the potentiometers current value and which setting is currently engaged. This can be set to show on a secondary LCD screen for better usability.
-The device shows the airflow pumping at the same rate as the flow setting and can be validated on an oscilloscope.
+The device shows the airflow pumping at the same rate as the flow setting and can be validated on an oscilloscope. The red LED indicates if a patient is connected or not.
 
 ![demo](images/demo.gif)
 
