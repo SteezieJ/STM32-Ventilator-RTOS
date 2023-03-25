@@ -1,7 +1,12 @@
 # STM32-Ventilator-RTOS
 STM32F411 RTOS multithread system for controlling the volume, rate and flow for a ventilator.
 
-Use Blackpill STM connected through serial to access the ventilator menu for settings.
+Use Blackpill STM connected through serial to access the ventilator menu for settings. This project makes use of the STM32CubeIDE for comilation. 
+The user enters the settings mode with a long press to enter the ventilator setting and then exit setting mode. 
+The second button is used to connect/disconnect the 'patient' and only enables if settings have been entered.
+
+This image shows the FSM modelled version that steps through each setting.
+
 
 Assumptions
 1. For our purposes the screen of the AC Ventilator is represented by a text-based terminal.
@@ -17,7 +22,7 @@ button must be depressed for more than 1 sec to trigger a spontaneous breath.
 5. An output LED is used to indicate the tidal volume (VT) per breath.
 6. Another output LED is used to indicate the constant flow rate (Qmax).
 
-Task 1 (FSM Modelling):
+Task:
 Develop an FSM of an AC ventilator’s operation. Assume that the settings mode is entered into by depressing an input button for a period between 1-3 seconds.
 Further, assume that all settings will be cycled through from:
 • Tidal volume (VT)àassume an input range between 500-750 mL/breath for adults.
