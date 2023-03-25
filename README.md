@@ -12,9 +12,16 @@ This image shows the FSM modelled version that steps through each setting. The p
 
 ## Implementation
 The STM32 is connected with the following pinout:
-![pinout](images/ioc.png)
+
+![pinout](images/pinout.png)
+
+The device is connected with the serial debugger to enter the settings mode and toggles the settings with an on screen menu and help functions to request the potentiometers current value and which setting is currently engaged. This can be set to show on a secondary LCD screen for better usability.
+The device shows the airflow pumping at the same rate as the flow setting and can be validated on an oscilloscope.
+
+![demo](images/demo.gif)
 
 
+## Guidelines
 
 Assumptions
 1. For our purposes the screen of the AC Ventilator is represented by a text-based terminal.
