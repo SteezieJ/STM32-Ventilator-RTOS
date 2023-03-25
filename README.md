@@ -26,7 +26,9 @@ The device shows the airflow pumping at the same rate as the flow setting and ca
 ![demo](images/uart.jpg)
 
 
-| ![demo](images/blackpill_setup.png) | ![demo](images/uart.jpg) |
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![demo](images/blackpill_setup.png)  |  ![demo](images/uart.jpg)
 
 
 
