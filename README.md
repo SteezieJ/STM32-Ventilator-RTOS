@@ -25,6 +25,13 @@ The device shows the airflow pumping at the same rate as the flow setting and ca
 
 ![demo](images/uart.jpg)
 
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+
 ## Guidelines
 
 Assumptions
