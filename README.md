@@ -1,10 +1,10 @@
 # STM32-Ventilator-RTOS
 ## Introduction
 STM32F411 RTOS multithread system for controlling the volume, rate and flow for a ventilator.
-
-Use Blackpill STM connected through serial to access the ventilator menu for settings. This project makes use of the STM32CubeIDE for comilation. 
-The user enters the settings mode with a long press to enter the ventilator setting and then exit setting mode. 
+The project used the Blackpill ST32F411CEU6  connected through serial to access the ventilator menu for settings. 
+The user enters the settings mode with a long press to enter the ventilator setting and to exit settings mode. 
 The second button is used to connect/disconnect the 'patient' and only enables if settings have been entered.
+The solution was achieved by making use of RTOS, UART, PWM, timers and interrupts.
 
 ## Simulation
 This image shows the FSM modelled version that steps through each setting. The patient has to be disconnected to start the settings mode and all settings must be set and the mode exited to connect the patient and start pumping air. The airflow is indicated with a flashing LED.
